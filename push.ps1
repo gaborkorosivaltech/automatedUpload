@@ -1,5 +1,4 @@
 #!/bin/sh
-psexec -u "nt authority\network service" -i "C:\windows\system32\WindowsPowerShell\v1.0\powershell.exe"
 
 Push-Location $PSScriptRoot
 
