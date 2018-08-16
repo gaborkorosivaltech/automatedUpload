@@ -1,7 +1,4 @@
-﻿$code = {
-#!/bin/sh
-
-Push-Location $PSScriptRoot
+﻿Push-Location $PSScriptRoot
 
 $Filepath = 'C:\AutoGitTest'
 $TimeAndDate = Get-Date -Format g
@@ -12,4 +9,6 @@ git commit -am "$TimeAndDate"
 git push
 
 Pop-Location
-}
+
+
+#!/bin/sh
