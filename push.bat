@@ -1,0 +1,1 @@
+powershell.exe -noexit -file C:\AutoGitTest\push.ps1
