@@ -13,5 +13,3 @@ git push
 
 Pop-Location
 }
-
-[convert]::ToBase64String([Text.Encoding]::Unicode.GetBytes($code))
